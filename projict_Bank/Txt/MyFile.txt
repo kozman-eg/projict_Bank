@@ -1,0 +1,89 @@
+#include "cxx.cpp"
+vector<int> ReadVector()
+{
+    char playagaine = 'Y';
+    int Nember;
+    vector<int> result;
+    do
+    {
+        cout << "enter nember";
+        cin >> Nember;
+        result.push_back(Nember);
+        cin >> playagaine;
+    } while (playagaine == 'Y' || playagaine == 'y');
+    return result;
+}
+void PrintLest(vector<int> &arr)
+{
+    for (int &row : arr)
+    {
+        cout << row << " ";
+    }
+}
+struct stEmployee
+{
+    string FirstName;
+    string LastName;
+    float Salary;
+};
+int main()
+{
+    fstream MyFile;
+     ReadVector();
+
+    MyFile.open("MyFile.txt", ios::out);
+    if (MyFile.is_open())
+    {
+        MyFile << "Hi, this is the first line";
+        MyFile << "Hi, this is the second line";
+        MyFile << "Hi, this is the third line";
+        MyFile.close();
+    }
+    return 0;
+}
+/*
+m = "\
+#include \"cxx.cpp\"\n\
+vector<int> ReadVector()\n\
+{\n\
+    char playagaine = 'Y';\n\
+    int Nember;\n\
+    vector<int> result;\n\
+    do\n\
+    {\n\
+        cout << \"enter nember\";\n\
+        cin >> Nember;\n\
+        result.push_back(Nember);\n\
+        cin >> playagaine;\n\
+    } while (playagaine == 'Y' || playagaine == 'y');\n\
+    return result;\n\
+}\n\
+void PrintLest(vector<int> &arr)\n\
+{\n\
+    for (int &row : arr)\n\
+    {\n\
+        cout << row << \" \";\n\
+    }\n\
+}\n\
+struct stEmployee\n\
+{\n\
+    string FirstName;\n\
+    string LastName;\n\
+    float Salary;\n\
+};\n\
+int main()\n\
+{\n\
+    fstream MyFile;\n\
+     ReadVector();\n\
+\n\
+    MyFile.open(\"MyFile.txt\", ios::out);\n\
+    if (MyFile.is_open())\n\
+    {\n\
+        MyFile << \"Hi, this is the first line\";\n\
+        MyFile << \"Hi, this is the second line\";\n\
+        MyFile << \"Hi, this is the third line\";\n\
+        MyFile.close();\n\
+    }\n\
+    return 0;\n\
+}\n\
+";*/

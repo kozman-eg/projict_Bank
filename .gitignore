@@ -1,0 +1,19 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/.vscode
+/projict_Bank/Txt/test.exe
+/projict_Bank/Txt/test.obj
+/projict_Bank/Txt/test.ilk
+/projict_Bank/Txt/test.cpp
+/projict_Bank/Txt/test.pdb
+/projict_Bank/Txt/vc140.pdb
+/x64/Debug
+/projict_Bank/x64/Debug
+*.exe
+/projict_Bank/projict_Bank.vcxproj
+/projict_Bank/projict_Bank.vcxproj.filters
+/projict_Bank/Source.cpp
+/projict_Bank/projict_Bank.vcxproj.user
