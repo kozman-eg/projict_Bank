@@ -3,9 +3,9 @@
 #include <string>
 #include <vector>
 #include <iomanip>
-#include "../clsDate.h"
-#include "../clsUtil.h"
-#include "../clsInputValidate.h"
+#include "src/Lib/clsDate.h"
+#include "src/Lib/clsUtil.h"
+#include "src/Lib/clsInputValidate.h"
 
 using namespace std;
 

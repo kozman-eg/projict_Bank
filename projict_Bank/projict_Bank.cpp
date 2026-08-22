@@ -13,19 +13,6 @@ using namespace std;
 int main()
 
 {
-
-    /*
-    while (true)
-    {
-        if (!clsLoginScreen::ShowLoginScreen())
-        {
-            break;
-        }
-
-    }
-    */
-    
-
     while (clsLoginScreen::ShowLoginScreen());
 
     system("pause>0");
