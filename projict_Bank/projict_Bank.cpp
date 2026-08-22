@@ -4,7 +4,7 @@
 #include <iostream>
 #include <bitset>
 #include "Global.h"
-#include "clsLoginScreen.h"
+#include "include/Screen/clsLoginScreen.h"
 
 
 using namespace std;
