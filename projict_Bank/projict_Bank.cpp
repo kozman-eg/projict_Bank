@@ -3,8 +3,8 @@
 
 #include <iostream>
 #include <bitset>
-#include "Global.h"
-#include "src/Screen/clsLoginScreen.h"
+//#include "include/Core/Global.h"
+#include "include/Screen/clsLoginScreen.h"
 
 
 using namespace std;
